@@ -1,0 +1,125 @@
+import turtle
+t=turtle.Turtle()
+tur=turtle.Screen()
+tur.bgcolor("black")
+t.pensize(10)
+t.pencolor("pink")
+
+# Creating Letter I
+t.penup()
+t.goto(-350,50)
+t.pendown()
+t.right(90)
+t.forward(100)
+
+# Creating Letter S
+t.penup()
+t.goto(-300,50)
+t.pendown()
+t.left(90)
+t.circle(-25,-170)
+t.circle(25,-175)
+
+# Creating Letter H
+t.penup()
+t.goto(-265,50)
+t.pendown()
+t.right(85)
+t.forward(100)
+t.backward(50)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(50)
+t.backward(100)
+
+# Creating Letter A
+t.penup()
+t.goto(-190,50)
+t.pendown()
+t.right(160)
+t.forward(100)
+t.backward(100)
+t.left(-35)
+t.forward(100)
+t.backward(40)
+t.left(105)
+t.forward(35)
+
+# Creating Letter K
+t.penup()
+t.goto(-100,50)
+t.pendown()
+t.right(90)
+t.forward(100)
+t.backward(50)
+t.left(45)
+t.forward(70)
+t.backward(70)
+t.left(90)
+t.forward(70)
+
+# Creating Letter A
+t.penup()
+t.goto(-5,50)
+t.pendown()
+t.right(120)
+t.forward(100)
+t.backward(100)
+t.left(-35)
+t.forward(100)
+t.backward(40)
+t.left(110)
+t.forward(35)
+
+# Creating Letter N
+t.penup()
+t.goto(33,50)
+t.pendown()
+t.right(90)
+t.forward(100)
+t.back(100)
+t.left(25)
+t.forward(110)
+t.left(155)
+t.forward(100)
+
+# Creating Letter S
+t.penup()
+t.goto(125,50)
+t.pendown()
+t.right(90)
+t.circle(-25,-170)
+t.circle(25,-175)
+
+# Creating Letter A
+t.penup()
+t.goto(190,50)
+t.pendown()
+t.right(70)
+t.forward(100)
+t.backward(100)
+t.left(-35)
+t.forward(100)
+t.backward(40)
+t.left(110)
+t.forward(35)
+
+# Creating Letter L
+t.penup()
+t.goto(240,50)
+t.pendown()
+t.right(90)
+t.forward(100)
+t.left(90)
+t.forward(60)
+
+# Underline
+t.penup()
+t.goto(-350,-65)
+t.pencolor("yellow")
+t.pensize(7)
+t.pendown()
+t.forward(650)
+
+turtle.exitonclick()
